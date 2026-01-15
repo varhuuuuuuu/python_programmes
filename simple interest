@@ -1,0 +1,9 @@
+P=float(input("enter the principal: "))
+R=float(input("enter the rate: "))
+T=float(input("enter the time: "))
+
+SI=(P*R*T)/100
+T=P+SI
+
+print("the simple interest is: ",SI)
+print("the total amount is: ",T)
