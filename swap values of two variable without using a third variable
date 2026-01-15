@@ -1,0 +1,8 @@
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("values of a and b before swapping were",a,",",b,"respectively")
+
+a,b=b,a
+
+print("now the values of a and b after swapping are",a,",",b,"respectively")
