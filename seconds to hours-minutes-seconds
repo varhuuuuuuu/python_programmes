@@ -1,0 +1,8 @@
+s=int(input("enter the time in seconds: "))
+
+hours = s // 3600
+remaining = s % 3600
+minutes = remaining // 60
+seconds = remaining % 60
+
+print("the time is",hours,"hour(s)",minutes,"minute(s)",seconds,"seconds(s)")
